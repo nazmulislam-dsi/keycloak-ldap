@@ -1,0 +1,12 @@
+version: "3.1"
+
+services:
+  ldap:
+    image: osixia/openldap:1.2.1
+    ports:
+      - 10389:389
+
+  keycloak:
+    image: jboss/keycloak
+    ports:
+      - 8080:8080
