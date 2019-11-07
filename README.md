@@ -10,7 +10,7 @@ ldapmodify -h localhost -D "cn=admin,dc=example,dc=org" -w admin -p 10389 -a -f 
 
 ## Config
 
-- [images/Screenshot_2019-11-07 Keycloak Admin Console.png](images/Screenshot_2019-11-07 Keycloak Admin Console.png)
+- [User Federation](images/ldap.png)
 
 ## Resource
 
